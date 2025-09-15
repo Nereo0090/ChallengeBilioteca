@@ -1,0 +1,13 @@
+# Biblioteca API - Spring Boot
+
+Este proyecto es una API RESTful de gestión de libros, desarrollada en **Java con Spring Boot** y conectada a **MySQL** usando **Spring Data JPA**.
+
+## Funcionalidades
+
+- Listar todos los libros (`GET /api/books`)
+- Obtener un libro por ID (`GET /api/books/{id}`)
+- Agregar un libro (`POST /api/books`)
+- Actualizar un libro (`PUT /api/books/{id}`)
+- Eliminar un libro (`DELETE /api/books/{id}`)
+- Validaciones de campos (`title`, `author`, `year`)
+- Manejo de errores con JSON (`404 Not Found`, `400 Bad Request`)
