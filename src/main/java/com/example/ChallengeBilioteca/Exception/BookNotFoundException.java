@@ -1,4 +1,4 @@
-package com.example.ChallengeBilioteca.Exeption; // <- ojo al typo, mejor poner "Exception"
+package com.example.ChallengeBilioteca.Exception; // <- ojo al typo, mejor poner "Exception"
 
 public class BookNotFoundException extends RuntimeException {
     public BookNotFoundException(int id) {

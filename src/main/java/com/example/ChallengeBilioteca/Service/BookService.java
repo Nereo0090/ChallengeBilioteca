@@ -1,6 +1,6 @@
 package com.example.ChallengeBilioteca.Service;
 
-import com.example.ChallengeBilioteca.Exeption.BookNotFoundException;
+import com.example.ChallengeBilioteca.Exception.BookNotFoundException;
 import org.springframework.stereotype.Service;
 import com.example.ChallengeBilioteca.Model.Book;
 import java.util.ArrayList;
